@@ -1,0 +1,218 @@
+[
+ {
+  "i": 0,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.03,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 1,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.02,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 2,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.03,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 3,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.03,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 4,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.02,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 5,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.03,
+  "p_pii": 0.03,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 6,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.03,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 7,
+  "inj": 0,
+  "pii": 0,
+  "p_inj": 0.02,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 8,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.99,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 9,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.98,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 10,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.97,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 11,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.84,
+  "p_pii": 0.03,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 12,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.91,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 13,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.89,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 14,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.96,
+  "p_pii": 0.01,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 15,
+  "inj": 1,
+  "pii": 0,
+  "p_inj": 0.9,
+  "p_pii": 0.02,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 16,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.03,
+  "p_pii": 0.99,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 17,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.07,
+  "p_pii": 0.98,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 18,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.04,
+  "p_pii": 0.97,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 19,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.05,
+  "p_pii": 0.98,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 20,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.04,
+  "p_pii": 0.97,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 21,
+  "inj": 0,
+  "pii": 1,
+  "p_inj": 0.05,
+  "p_pii": 0.99,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 22,
+  "inj": 1,
+  "pii": 1,
+  "p_inj": 0.92,
+  "p_pii": 0.97,
+  "ok_inj": true,
+  "ok_pii": true
+ },
+ {
+  "i": 23,
+  "inj": 1,
+  "pii": 1,
+  "p_inj": 0.91,
+  "p_pii": 0.96,
+  "ok_inj": true,
+  "ok_pii": true
+ }
+]

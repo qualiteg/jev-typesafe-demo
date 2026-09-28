@@ -1,0 +1,11 @@
+round 0: order [5, 1, 20, 10, 40]
+round 1: order [20, 10, 40, 1, 5]
+round 2: order [1, 20, 10, 5, 40]
+round 3: order [10, 20, 5, 1, 40]
+round 4: order [5, 1, 40, 20, 10]
+round 5: order [10, 40, 20, 5, 1]
+questions= 1  median    159 ms  (min 148 / max 189)  n=6
+questions= 5  median    155 ms  (min 142 / max 187)  n=6
+questions=10  median    164 ms  (min 145 / max 231)  n=6
+questions=20  median    149 ms  (min 147 / max 165)  n=6
+questions=40  median    160 ms  (min 154 / max 222)  n=6

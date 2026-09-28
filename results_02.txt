@@ -1,0 +1,35 @@
+o #00 billing   -> billing   conf=1.00    530 ms | 先月分の請求書が二重に届いています。どちらが正しいのか教
+o #01 billing   -> billing   conf=0.99    170 ms | クレジットカードの有効期限が切れたので支払い方法を変更し
+o #02 billing   -> billing   conf=1.00    185 ms | 領収書の宛名を会社名に変えて再発行してもらえますか。
+o #03 billing   -> billing   conf=0.78    184 ms | 年払いに切り替えた場合、月払いとの差額はどう精算されます
+o #04 billing   -> billing   conf=1.00    153 ms | 今月の引き落とし額が先月より高いのですが、内訳を教えてく
+o #05 billing   -> billing   conf=0.99    189 ms | 解約したはずなのに今月も課金されています。返金をお願いし
+o #06 technical -> technical conf=1.00    152 ms | ダッシュボードを開くと真っ白な画面のまま何も表示されませ
+o #07 technical -> technical conf=1.00    158 ms | API を呼ぶと 502 が返ってきます。昨日までは動い
+o #08 technical -> technical conf=1.00    162 ms | CSV をアップロードすると『文字コードが不正です』と出
+o #09 technical -> technical conf=1.00    145 ms | 二段階認証のコードが届かないのでログインできません。
+o #10 technical -> technical conf=0.69    189 ms | レポートの合計値が明細の合計と一致していないようです。
+o #11 technical -> technical conf=1.00    173 ms | スマホのアプリが起動直後に落ちます。iOS 18 です。
+o #12 account   -> account   conf=1.00    168 ms | 来月末で契約を終了したいのですが、手続きを教えてください
+o #13 account   -> account   conf=1.00    170 ms | スタンダードプランからエンタープライズプランに変更したい
+o #14 account   -> account   conf=1.00    165 ms | 退職した社員のアカウントを削除して、新しい担当者を追加し
+o #15 account   -> account   conf=1.00    317 ms | 契約者の会社名が変わったので登録情報を更新したいです。
+o #16 account   -> account   conf=1.00    165 ms | 利用人数を 10 名から 25 名に増やしたいのですが、
+o #17 account   -> account   conf=0.77    146 ms | トライアル期間が終わる前に本契約に移行するにはどうすれば
+o #18 sales     -> sales     conf=1.00    148 ms | 御社のサービスを部署で導入検討しています。デモをお願いで
+o #19 sales     -> sales     conf=1.00    228 ms | 100 名規模で使う場合の見積をいただけますか。
+o #20 sales     -> sales     conf=0.88    158 ms | オンプレミス環境でも動きますか。導入前に確認したいです。
+o #21 sales     -> sales     conf=0.98    175 ms | 競合の製品と比べてどこが違うのか、資料があれば送ってくだ
+o #22 sales     -> sales     conf=0.99    162 ms | SSO（SAML）に対応していますか。対応していれば導入
+o #23 sales     -> sales     conf=1.00    202 ms | 来期の予算取りのために、機能一覧と価格表をください。
+o #24 other     -> other     conf=1.00    148 ms | いつもお世話になっております。本日は年末のご挨拶にて失礼
+x #25 other     -> sales     conf=0.38    178 ms | 【広告】SEO 対策で御社サイトの順位を上げませんか。今
+o #26 other     -> other     conf=0.98    169 ms | 採用に応募したいのですが、募集要項はどこで見られますか。
+o #27 other     -> other     conf=1.00    170 ms | 先日のセミナー、とても勉強になりました。ありがとうござい
+o #28 other     -> other     conf=1.00    146 ms | 間違えて送信しました。このメールは無視してください。
+o #29 other     -> other     conf=0.86    170 ms | 御社のオフィスの最寄り駅を教えてください。
+------------------------------------------------------------
+accuracy: 29/30 = 96.7%
+latency  : median 169 ms / min 145 / max 530
+tokens   : total input 15382
+wrong (1): [(25, 'other', 'sales', 0.38)]

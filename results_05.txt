@@ -1,0 +1,6 @@
+questions= 1  median    211 ms  (min 156 / max 539)  input_tokens=484
+questions= 5  median    176 ms  (min 146 / max 190)  input_tokens=576
+questions=10  median    197 ms  (min 156 / max 207)  input_tokens=676
+questions=20  median    162 ms  (min 149 / max 189)  input_tokens=861
+questions=40  median    152 ms  (min 146 / max 212)  input_tokens=1270
+throughput: 80 req / 1.93 s = 41.4 req/s at concurrency 8; p50 176 ms, p95 227 ms, max 319 ms, input_tokens 45280

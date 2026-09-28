@@ -1,0 +1,13 @@
+file                         requests  input_tok output_tok        USD
+01_hello.jsonl                      1        607         86    0.00003
+02_routing.jsonl                   30     15,382      1,560    0.00065
+03_guardrail.jsonl                 24     10,664        936    0.00045
+03b_guardrail_retest.jsonl         24     10,832        936    0.00045
+04_agent_gate.jsonl                24     10,585        840    0.00044
+05_latency.jsonl                   25     19,335      6,760    0.00081
+05b_latency_shuffled.jsonl         30     23,202      8,112    0.00097
+06_dates.jsonl                     30      9,411        600    0.00040
+06_numbers.jsonl                   30      9,320        600    0.00039
+----------------------------------------------------------------------
+total                             218    109,338     20,430    0.00459
+(input $0.042 / 1M tokens, output free. 05_latency のスループット計測分は別集計)
