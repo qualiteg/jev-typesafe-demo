@@ -8,7 +8,7 @@ Jev is TypeSafe AI's "System One" model. It does not generate text. You send a p
 
 ![Jev returns typed decisions, not text](images/fig1_overview.png)
 
-This repository contains the exact scripts used in the article, plus the raw responses (`results/*.jsonl`) so that every number in the article can be traced back to an API call.
+This repository contains the exact scripts used in the article, plus the raw responses (`results/*.jsonl`, 218 calls) so that the accuracy, latency and cost figures in the article can be traced back to individual API calls. The 80-request concurrency test in `05_latency.py` calls the async client directly and keeps only aggregate numbers (`results/05_throughput.json`); the 3 warm-up calls in `05b_latency_shuffled.py` are not logged.
 
 ## What is measured
 
@@ -50,7 +50,7 @@ python 06_weak_spots.py
 python 07_cost.py
 ```
 
-Every call goes through `jev_common.call()`, which appends the raw response and the elapsed time to `results/<script>.jsonl`. The `results/` directory in this repository holds the runs used in the article; running the scripts again appends to those files, so delete them first if you want a clean comparison.
+Every call except the concurrency test and the warm-up goes through `jev_common.call()`, which appends the raw response and the elapsed time to `results/<script>.jsonl`. The `results/` directory in this repository holds the runs used in the article; running the scripts again appends to those files, so delete them first if you want a clean comparison.
 
 Cost of running everything once is well under one US cent (input $0.042 per million tokens, output free, as published by TypeSafe AI).
 
