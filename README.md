@@ -6,7 +6,7 @@ Sample code for the Qualiteg Blog article
 
 Jev is TypeSafe AI's "System One" model. It does not generate text. You send a piece of text (`state`) and a set of typed questions (`Noul` / `Choice` / `Score`), and it returns typed answers with calibrated probabilities.
 
-![Jev returns typed decisions, not text](images/fig1_overview.png)
+![Jev returns typed decisions, not text](images/fig1_overview_en.png)
 
 This repository contains the exact scripts used in the article, plus the raw responses (`results/*.jsonl`, 218 calls) so that the accuracy, latency and cost figures in the article can be traced back to individual API calls. The 80-request concurrency test in `05_latency.py` calls the async client directly and keeps only aggregate numbers (`results/05_throughput.json`); the 3 warm-up calls in `05b_latency_shuffled.py` are not logged.
 
@@ -25,11 +25,11 @@ All numbers below were measured on 2026-09-28 from Tokyo against `api.typesafe.a
 | `06_weak_spots.py` | Number comparison and date ordering in Japanese, 30 each | 30/30 and 30/30 |
 | `07_cost.py` | Sum `usage.input_tokens` from `results/*.jsonl` | 218 logged requests, 109,338 input tokens, $0.00459. Adding the 80 concurrent requests and 3 unlogged warm-up calls: 301 requests, an estimated 156,070 input tokens (the 3 warm-up calls were not logged and are counted as 484 tokens each), about $0.00655 (estimated from usage and the published price, not a billed amount) |
 
-![Adding questions did not change latency](images/fig5_latency_v3.png)
+![Adding questions did not change latency](images/fig5_latency_en.png)
 
-![Accuracy per scenario](images/fig6_accuracy_v3.png)
+![Accuracy per scenario](images/fig6_accuracy_en.png)
 
-![Where Jev sits: in front of the LLM, and in front of the agent's action](images/fig4_architecture_v2.png)
+![Where Jev sits: in front of the LLM, and in front of the agent's action](images/fig4_architecture_en.png)
 
 ## Run it yourself
 
